@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        Booking bookings = new Booking();
+        BookingManager bookings = new BookingManager();
 //        1. Vytvoř klienty Adélu Malíkovou (narozena 13. 3. 1993) a Jana Dvořáčka (narozen 5.5.1995). Vypiš na obrazovku jejich popis (description).
         Host adela = new Host("Adéla", "Malíkova", LocalDate.of(1993, 3, 13));
         Host jan = new Host("Jan", "Dvořák",LocalDate.of(1995,5,5));
